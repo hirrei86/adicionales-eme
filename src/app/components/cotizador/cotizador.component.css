@@ -1,35 +1,37 @@
-.logo{
-    max-width: 120px;
-}
 body{
     background-color: rgb(243, 248, 252);
-}
-
-.botones{
-margin-left: 30px;
-margin-top: -50px;
-display: grid;
-grid-column: auto;
-}
-
-#button2{
+    margin: 0px;
+  }
+  img {
+    width: 160px;
+    height: 130px;
+    clip-path: inset(30% 0 30% 0);
+    top: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  
+  #button2 {
+    display: flex;
+    margin-top: -80px;
+    margin-left: 230px;
+    max-width: 126px;
+    padding-left: 32px;
     font-size: 18px;
     font-weight: 600;
     border: none;
+    color: white;
     background: rgb(85, 218, 212);
     border-radius: 20px;
     box-shadow: 1px 1px 30px -5px #18181849;
     cursor: pointer;
     transition: box-shadow 500ms;
     font-family: 'Poppins', sans-serif;
-    color: white;
-    width: 150px;
-    margin: 20px;
-    padding-left: 45px;
-}
-
-#button3{
-    font-size: 18px;
+  }
+  #button3{
+    display: flex;
+    margin-top: 70px;
+    font-size: 16px;
     font-weight: 600;
     border: none;
     background: #FEBA0B;
@@ -40,11 +42,15 @@ grid-column: auto;
     font-family: 'Poppins', sans-serif;
     color: white;
     width: 220px;
-    margin-left: 18px;
-    padding-left: 20px;
-}
-img{
-    width: 200px;
     margin-left: 20px;
-    margin-top: -30px;
+    padding: 4px;
+    max-width: 200px;
+    padding-left: 22px;
+    margin-bottom: 30px;
 }
+h5{
+  font-size: 15px;
+}
+
+  
+  
