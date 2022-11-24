@@ -27,6 +27,7 @@ body{
     cursor: pointer;
     transition: box-shadow 500ms;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
   }
   #button3{
     display: flex;
@@ -47,9 +48,10 @@ body{
     max-width: 200px;
     padding-left: 22px;
     margin-bottom: 30px;
+    text-decoration: none;
 }
 h5{
-  font-size: 15px;
+  font-size: 13px;
 }
 
   
